@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Портфолио Никифорова Леонида</title>
+</head>
+<body class="page">
+  <header class="header">
+    <img src="./images/photo.jpg" alt="Фотография Леонида" class="header__photo">
+    <div class="header__info-block">
+      <h1 class="header__title">Фронтэнд-разработчик</h1>
+      <address class="header__contacts-block">
+        <p class="header__full-name">Никифоров Леонид Александрович</p>
+        <p class="header__contacts">E-mail: <a href="mailto:leonik87@mail.ru" class="header__link">leonik87@mail.ru</a></p>
+        <p class="header__contacts">Telegram: <a href="https://t.me/Bibiji" class="header__link">@Bibiji</a></p>
+      </address>
+      <div class="header__skills-block">
+        <span class="header__skill">JavaScipt</span>
+        <span class="header__skill">HTML</span>
+        <span class="header__skill">CSS</span>
+        <span class="header__skill">Адаптивная верстка</span>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <section class="about section add-shadow">
+      <h2 class="section__title">> Обо мне</h2>
+      <div class="about__block">
+        <h3 class="about__subtitle">Опыт работы</h3>
+        <ul class="about__list">
+          <li class="about__list-item"><span class="about__list-item_accent">2019 - 2024</span> старший научный сотрудник в СВФУ</li>
+        </ul>
+      </div>
+      <div class="about__block">
+        <h3 class="about__subtitle">Образование</h3>
+        <ul class="about__list">
+          <li class="about__list-item"><span class="about__list-item_accent">2024 - 2025</span> курс "Фронтэнд-разработчик" в Яндекс.Практикум</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="portfolio section add-shadow">
+      <h2 class="section__title">> Портфолио</h2>
+      <article class="card add-shadow">
+        <img class="card__img" src="./images/oxesandcows2.PNG" alt="Скриншот игры 'Быки и коровы'">
+        <h3 class="card__title">Игра "Быки и коровы"</h3>
+        <p class="card__text">
+          Игра, выполненная на JavaScipt. Использовался Gulp, pug, SCSS. Реализована небольшая анимация. 
+        </p>
+        <a class="card__button" href="https://github.com/bibiji24/OxesAndCows.git">Смотреть код</a>
+      </article>
+      <article class="card add-shadow">
+        <img class="card__img" src="./images/zakteg.PNG" alt="Скриншот игры 'Быки и коровы'">
+        <h3 class="card__title">Проект "Закрывающий тег"</h3>
+        <p class="card__text">
+          Учебный проект. Использованы SVG и анимация с ними. Реализована темная и светлая темы. 
+        </p>
+        <a class="card__button" href="https://github.com/bibiji24/zakrivayuschiy-teg-f.git">Смотреть код</a>
+      </article>
+    </section>
+  </main>
+
+</body>
+</html>
